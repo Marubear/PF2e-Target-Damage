@@ -1,97 +1,97 @@
 {
-	"id": "pf2e-target-damage-Maruburr",
-	"title": "PF2e Target Damage Revival",
-	"description": "QoL module for improving damage application in Pathfinder 2e.",
-	"version": "1.0",
-	"authors": [
-		{
-			"name": "MrVauxs",
-			"discord": "vauxs",
-			"twitter": "@ThatVauxs",
-			"email": "mrvauxs@gmail.com",
-			"ko-fi": "MrVauxs",
-			"patreon": "MrVauxs",
-			"flags": {}
-		}
-	],
-	"compatibility": {
-		"minimum": "10",
-		"verified": "11"
-	},
-	"relationships": {
-		"conflicts": [
-			{
-				"id": "target-lock",
-				"type": "module",
-				"reason": "PF2e Damage Target is a successor to Target Lock, and borrows a most of its code from it. Target Lock is unmaintained and enabling both modules is not recommended."
-			},
-			{
-				"id": "pf2e-toolbelt",
-				"type": "module",
-				"reason": "PF2e Toolbelt is a successor to PF2e Damage Target. PF2e Target Damage is unmaintained and enabling both modules is not recommended."
-			}
-		],
-		"systems": [
-			{
-				"id": "pf2e",
-				"type": "system",
-				"compatibility": {
-					"minimum": "5.9.3"
-				}
-			}
-		]
-	},
-	"socket": true,
-	"languages": [
-		{
-			"lang": "en",
-			"name": "English",
-			"path": "languages/en.json"
-		},
-		{
-			"lang": "pl",
-			"name": "polski",
-			"path": "languages/pl.json"
-		},
-		{
-			"lang": "fr",
-			"name": "Français",
-			"path": "languages/fr.json"
-		},
-		{
-			"lang": "cn",
-			"name": "中文（简体）",
-			"path": "languages/cn.json"
-		},
-		{
-			"lang": "zh-tw",
-			"name": "正體中文",
-			"path": "languages/zh-tw.json"
-		},
-		{
-			"lang": "de",
-			"name": "Deutsch",
-			"path": "languages/de.json"
-		}
-	],
-	"media": [
-		{
-			"type": "setup",
-			"name": "Setup Screen",
-			"url": "modules/pf2e-target-damage/assets/setup.webp"
-		}
-	],
-	"url": "https://github.com/MrVauxs/PF2e-Target-Damage",
-	"manifest": "This is replaced",
-	"download": "This is replaced",
-	"readme": "https://github.com/MrVauxs/PF2e-Target-Damage",
-	"bugs": "https://github.com/MrVauxs/PF2e-Target-Damage/issues",
-	"changelog": "https://github.com/MrVauxs/PF2e-Target-Damage/blob/master/CHANGELOG.md",
-	"esmodules": [
-		"module/settings.js",
-		"module/target-damage.js"
-	],
-	"styles": [
-		"styles/target-damage.css"
-	]
+    "id": "pf2e-target-damage-Maruburr",
+    "title": "PF2e Target Damage Revival",
+    "description": "QoL module for improving damage application in Pathfinder 2e.",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "MrVauxs",
+            "discord": "vauxs",
+            "twitter": "@ThatVauxs",
+            "email": "mrvauxs@gmail.com",
+            "ko-fi": "MrVauxs",
+            "patreon": "MrVauxs",
+            "flags": {}
+        }
+    ],
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11"
+    },
+    "relationships": {
+        "conflicts": [
+            {
+                "id": "target-lock",
+                "type": "module",
+                "reason": "PF2e Damage Target is a successor to Target Lock, and borrows a most of its code from it. Target Lock is unmaintained and enabling both modules is not recommended."
+            },
+            {
+                "id": "pf2e-toolbelt",
+                "type": "module",
+                "reason": "PF2e Toolbelt is a successor to PF2e Damage Target. PF2e Target Damage is unmaintained and enabling both modules is not recommended."
+            }
+        ],
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "5.9.3"
+                }
+            }
+        ]
+    },
+    "socket": true,
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        },
+        {
+            "lang": "pl",
+            "name": "polski",
+            "path": "languages/pl.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "languages/fr.json"
+        },
+        {
+            "lang": "cn",
+            "name": "中文（简体）",
+            "path": "languages/cn.json"
+        },
+        {
+            "lang": "zh-tw",
+            "name": "正體中文",
+            "path": "languages/zh-tw.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "languages/de.json"
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "name": "Setup Screen",
+            "url": "modules/pf2e-target-damage/assets/setup.webp"
+        }
+    ],
+    "url": "https://github.com/MrVauxs/PF2e-Target-Damage",
+    "manifest": "This is replaced",
+    "download": "This is replaced",
+    "readme": "https://github.com/MrVauxs/PF2e-Target-Damage",
+    "bugs": "https://github.com/MrVauxs/PF2e-Target-Damage/issues",
+    "changelog": "https://github.com/MrVauxs/PF2e-Target-Damage/blob/master/CHANGELOG.md",
+    "esmodules": [
+        "module/settings.js",
+        "module/target-damage.js"
+    ],
+    "styles": [
+        "styles/target-damage.css"
+    ]
 }
