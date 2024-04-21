@@ -1,3 +1,6 @@
+# Revival 1.0
+- Replaced lines that limited use
+
 # 2.4.16
 
 - Fixed compatibility with version 5.9.3 of Pathfinder 2e system.
