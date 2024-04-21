@@ -5,7 +5,12 @@
 	"version": "1.0",
 	"authors": [
 		{
-			"name": "Maruburr",
+			"name": "MrVauxs",
+			"discord": "vauxs",
+			"twitter": "@ThatVauxs",
+			"email": "mrvauxs@gmail.com",
+			"ko-fi": "MrVauxs",
+			"patreon": "MrVauxs",
 			"flags": {}
 		}
 	],
@@ -76,12 +81,12 @@
 			"url": "modules/pf2e-target-damage/assets/setup.webp"
 		}
 	],
-	"url": "https://github.com/Marubear/PF2e-Target-Damage",
+	"url": "https://github.com/MrVauxs/PF2e-Target-Damage",
 	"manifest": "This is replaced",
 	"download": "This is replaced",
-	"readme": "https://github.com/Marubear/PF2e-Target-Damage",
-	"bugs": "https://github.com/Marubear/PF2e-Target-Damage/issues",
-	"changelog": "https://github.com/Marubear/PF2e-Target-Damage/blob/master/CHANGELOG.md",
+	"readme": "https://github.com/MrVauxs/PF2e-Target-Damage",
+	"bugs": "https://github.com/MrVauxs/PF2e-Target-Damage/issues",
+	"changelog": "https://github.com/MrVauxs/PF2e-Target-Damage/blob/master/CHANGELOG.md",
 	"esmodules": [
 		"module/settings.js",
 		"module/target-damage.js"
